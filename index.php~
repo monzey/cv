@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+<head>
+<link media="screen" rel="stylesheet" href="print_design.css" type="text/css" />
+<link media="print" rel="stylesheet" href="print_design.css" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+<meta charset="UTF-8" />
+</head>
+<body>
+
+
+<!-- ################ title ################ -->
+	
+<div id="cvtitle">
+
+	
+	
+	
+	<!-- ################ Infos personnelles ################ -->
+	<div class="cubewrapper">
+		<div class="title">Développeur Web</div>
+	
+		<div class="cube" id="infos">
+			<table>
+				<tr>
+				<td class="important">BERTRAND Maxime</td>
+				<tr>
+				<td class="bigsize">15/06/1995</td>
+				</tr>
+				<tr>
+				<td class="bigsize">464, rue de la pépinière, résidence Rimbaud Bât G.</td>
+				</tr>
+				<tr>
+				<td class="bigsize">portable - 06 27 33 02 04</td>
+				</tr>
+				<tr>
+				<td class="bigsize">fixe - 09 51 67 50 41</td>
+				</tr>
+				<tr>
+				<td class="bigsize">maxi.bertrand@gmail.com</td>
+				</tr>
+			</table>
+
+		
+		
+		
+		</div>
+		
+	</div>
+	
+	<div id="photo">
+		
+	</div>
+	
+	<!-- ################ ********* ################ -->
+</div>
+
+<!-- ################ *********** ################ -->
+
+
+
+<!-- ################ CV WRAPPER ################ -->
+
+<div id="cv">
+
+	
+	
+	
+	<!-- ################ Compétences ################ -->
+	
+	<div class="cubewrapper">
+	
+	
+	
+	<div class="title">Compétences</div>
+		<div class="cube" id="competences">
+			<table>
+				<tr>
+				<td class="important">Informatique</td>
+				</tr>
+				<tr>
+				<td class="subtd">Web (HTML, CSS, PHP, SQL)</td>
+				<td class="stars"><span class="acquired">||||||||||||||||</span><span>||</span></td>
+				<td class="subtd">Joomla</td>
+				<td class="stars"><span class="acquired">|||||||||||||</span><span>|||||</span></td>
+				<td class="subtd">Symfony</td>
+				<td class="stars"><span class="acquired">|||||||||||||</span><span>|||||</span></td>
+				</tr>
+				<tr>
+				<td class="subtd">SQL</td>
+				<td class="stars"><span class="acquired">||||||||||||||</span><span>||||</span></td>
+				<td class="subtd">Java</td>
+				<td class="stars"><span class="acquired">|||||||||||</span><span>|||||||</span></td>
+				<td class="subtd">C</td>
+				<td class="stars"><span class="acquired">|||||||</span><span>|||||||||||</span></td>
+				</tr>
+				<tr>
+				<td class="subtd">Photoshop CS4</td>
+				<td class="stars"><span class="acquired">|||||||||</span><span>|||||||||</span></td>
+				<td class="subtd">Inkscape</td>
+				<td class="stars"><span class="acquired">|||||</span><span>|||||||||||||</span></td>
+				<td class="subtd">Illustrator</td>
+				<td class="stars"><span class="acquired">||</span><span>||||||||||||||||</span></td>
+				</tr>
+				<tr>
+				<td class="subtd">Windows</td>
+				<td class="stars"><span class="acquired">|||||||||||</span><span>|||||||</span></td>
+				<td class="subtd">Linux</td>
+				<td class="stars"><span class="acquired">|||||||||||||||</span>|||</td>
+				<td class="subtd">Mac OSX</td>
+				<td class="stars"><span class="acquired">|||||</span><span>|||||||||||||</span></td>
+				</tr>
+				
+				<tr>
+				<td class="important">Langues</td>
+				</tr>
+				<tr>
+				<td class="subtd">Anglais</td>
+				<td class="stars"><span class="acquired">||||||||||||||||</span><span>||</span></td>
+				<td class="subtd">Allemand</td>
+				<td class="stars"><span class="acquired">|||||||</span><span>|||||||||||</span></td>
+				<td class="subtd">Coréen</td>
+				<td class="stars"><span class="acquired">|||</span><span>|||||||||||||||</span></td>
+				</tr>
+			</table>
+			
+			
+
+		</div>
+		
+	</div>
+	
+	<!-- ################ ********** ################ -->
+	
+	
+	<!-- ################ formation ################ -->
+	
+	<div class="demi cubewrapper">
+	
+	<div class="title">Formation</div>
+		<div class="cube" id="formation">
+			<table>
+				<tr>
+				<td class="white">Brevet des Collèges</td>
+				</tr>
+				<tr>
+				<td>2009 / Montpellier</td>
+				</tr>
+				<tr>
+				<td class="white">Baccalauréat Général Série S (mention Bien)</td>
+				</tr>
+				<tr>
+				<td>2012 / Montpellier</td>
+				</tr>
+				<tr>
+				<td class="white">Formation en cours à l'IUT de Montpellier (Informatique)</td>
+				</tr>
+				<tr>
+				<td>2012-2014</td>
+				</tr>
+			</table>
+		
+		</div>
+		
+		
+
+		
+	</div>
+	
+	<!-- ################ ********** ################ -->
+	
+	<!-- ################ realisations ################ -->
+	
+	<div class="demi cubewrapper">
+	<div class="title">Réalisations</div>
+		<div class="cube" id="realisations">
+			<table>
+				<tr>
+				<td class="white">Treelogy</td>
+				</tr>
+				<tr>
+				<td>Site de généalogie participative réalisé en HTML5, CSS3 & PHP5 à l'aide de Symfony2</td>
+				</tr>
+				<tr>
+				<td><a href="http://infolimon.iutmontp.univ-montp2.fr/~bertrandm/Symfony/web/app_dev.php/">http://treelogy.fr</a></td>
+				</tr>
+				<tr>
+				<td class="white">Need4Share</td>
+				</tr>
+				<tr>
+				<td>Site de partage de média réalisé en HTML5, CSS3 & PHP5</td>
+				</tr>
+				<tr>
+				<td><a href="http://infolimon.iutmontp.univ-montp2.fr/~bertrandm/needforshare10">http://needforshare.com</a></td>
+				</tr>
+				<tr>
+				<td class="white">Monzey</td>
+				</tr>
+				<tr>
+				<td>Mon e-Portfolio réalisé en HTML5 & CSS3</td>
+				</tr>
+				<tr>
+				<td><a href="http://infolimon.iutmontp.univ-montp2.fr/~bertrandm/">http://infolimon/~bertrandm</a></td>
+				</tr>
+			</table>
+
+		
+		
+		</div>
+	
+		
+	</div>
+	<!-- ################ ************* ################ -->
+	
+	
+	<!-- ################ hobbies ################ -->
+	
+	<div class="cubewrapper demi">
+	<div class="title">Hobbies</div>
+		<div class="cube" id="hobbies">
+			<table>
+				<tr>
+				<td class="white">Guitare</td>
+				</tr>
+				<tr>
+				<td>YAMAHA (électrique), IBANEZ (classique électro-accoustique) & EPIPHONE (Folk)</td>
+				</tr>
+				<tr>
+				<td class="white">Ukulele</td>
+				</tr>
+				<tr>
+				<td>Variété tahitienne</td>
+				</tr>
+				<tr>
+				<td class="white">Voyages</td>
+				</tr>
+				<tr>
+				<td>Corée du Sud, Etats-Unis, République Dominicaine, ...</td>
+				</tr>
+			</table>
+	
+	
+		
+		</div>
+	
+	
+	</div>
+	<!-- ################ *********** ################ -->
+	
+	
+	<!-- ################ Expériences ################ -->
+	
+	<div class="cubewrapper demi">
+	<div class="title">Expériences</div>
+		<div class="cube" id="hobbies">
+			<table>
+				<tr>
+				<td class="white">Stage webdesigner au <a href="http://lfseoul2.org">LFS</a></td>
+				</tr>
+				<tr>
+				<td>à Séoul, de Février à Mai 2014</td>
+				</tr>
+			</table>
+	
+	
+		
+		</div>
+	
+	
+	</div>
+	<!-- ################ *********** ################ -->
+	
+	
+	
+	
+</div>
+
+
+<!-- ################ *************** ################ -->
+</body>
+</html>
+
+

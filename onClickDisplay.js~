@@ -1,0 +1,24 @@
+
+
+/*
+** OnClickDisplay
+*/
+
+var buttons = document.getElementsByTagName('button');
+for(var i = 0; i < buttons.length; i++){
+	if(buttons[i].className === 'display'){
+		buttons[i].addEventListener('click', function(){
+			var divs = this.parentNode.getElementsByTagName('div');
+			for(j = 0; j < divs.length; j++){
+				if(getComputedStyle(divs[j], null).maxHeight === '0px'){
+					divs[j].style.maxHeight = '500px';
+					divs[j].style.backgroundColor = 'dimgrey';
+				}
+				else{ 
+					divs[j].style.maxHeight = '0';
+					divs[j].style.backgroundColor = 'rgba(48,48,48,1)';
+				}
+			}
+		}, false);
+	}
+}
