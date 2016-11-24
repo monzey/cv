@@ -21,8 +21,6 @@ $loader->registerDirs(
 
 $loader->register();
 
-
-
 // Create a DI
 $di = new FactoryDefault();
 
