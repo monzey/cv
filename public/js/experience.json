@@ -1,0 +1,20 @@
+[
+    {
+        "position": "Stagiaire web designer",
+        "description": "Refonte du template Joomla du site du Lycée Français de Séoul",
+        "when": "Février - Mai 2014",
+        "where": "Lycée Fançais de Séoul"
+    },
+    {
+        "position": "Stagiaire développeur web",
+        "description": "Refonte d'un extranet en Symfony 2",
+        "when": "Février - Mai 2015",
+        "where": "100% Net, Montpellier"
+    },
+    {
+        "position": "Développeur web",
+        "description": "Migration d'un CRM vers Symfony 2 + Angular",
+        "when": "Septembre 2015 - ?",
+        "where": "Nelis, Montpellier"
+    }
+]

@@ -17,5 +17,11 @@ class IndexController extends Controller
 
         $this->assets->addJs("js/angular/app.js");
         $this->assets->addJs("js/angular/controllers/index.js");
+        $this->assets->addJs("js/angular/controllers/skills.js");
+        $this->assets->addJs("js/angular/controllers/experience.js");
+        $this->assets->addJs("js/angular/controllers/training.js");
+        $this->assets->addJs("js/angular/controllers/projects.js");
+        $this->assets->addJs("js/angular/controllers/about.js");
+        $this->assets->addJs("js/angular/controllers/hobbies.js");
 	}
 }

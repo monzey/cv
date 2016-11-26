@@ -5,7 +5,16 @@
     {{ assets.outputCss() }}
 </head>
 <body ng-app="cv">
-<div ng-controller="IndexController" layout="column" class="md-inline-form">
+<div ng-controller="IndexController" ng-cloak>
+
+{% include "index/about.volt" %}
+
+{% include "index/skills.volt" %}
+{% include "index/experience.volt" %}
+{% include "index/projects.volt" %}
+{% include "index/training.volt" %}
+{% include "index/hobbies.volt" %}
+
 </div>
     {{ assets.outputJs() }}
 </body>

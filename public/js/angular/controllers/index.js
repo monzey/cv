@@ -1,4 +1,4 @@
 angular
     .module('cv')
-    .controller('IndexController', function ($scope) {
+    .controller('IndexController', function ($scope, $http) {
     });
