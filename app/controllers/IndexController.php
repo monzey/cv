@@ -19,6 +19,8 @@ class IndexController extends Controller
         $this->assets->addJs("semantic/dist/semantic.min.js");
         $this->assets->addCss("semantic/dist/semantic.min.css");
 
+        $this->assets->addCss("css/main.css");
+
         $this->assets->addJs("js/angular/app.js");
         $this->assets->addJs("js/angular/controllers/index.js");
         $this->assets->addJs("js/angular/controllers/skills.js");

@@ -1,20 +1,34 @@
 {
     "frameworks": [
         {
-            "name": "Angular",
-            "lvl": 5
+            "name": "Symfony",
+            "lvl": 9,
+            "logo": "https://pbs.twimg.com/profile_images/1450222519/logosf_positif_03_icon.png"
         },
         {
-            "name": "Ember",
-            "lvl": 4
+            "name": "Angular",
+            "lvl": 7,
+            "logo": "https://angular.io/resources/images/logos/angular/angular.svg"
         },
         {
             "name": "Angular Material",
-            "lvl": 6
+            "lvl": 6,
+            "logo": "https://angular.io/resources/images/logos/angular/angular.svg"
         },
         {
-            "name": "Symfony",
-            "lvl": 9
+            "name": "Ember",
+            "lvl": 4,
+            "logo": "https://www.gravatar.com/avatar/0cf15665a9146ba852bf042b0652780a?s=200"
+        },
+        {
+            "name": "Phalcon",
+            "lvl": 4,
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Phalcon_logo.png/1200px-Phalcon_logo.png"
+        },
+        {
+            "name": "Foundation",
+            "lvl": 4,
+            "logo": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
         }
     ],
     "codingLanguages": [

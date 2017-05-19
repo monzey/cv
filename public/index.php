@@ -32,6 +32,8 @@ $di->set(
 
         $volt->setOptions(
             [
+                'compiledSeparator' => '_',
+                'compileAlways' => true,
                 "compiledPath"      => "../app/cache/templates",
                 "compiledExtension" => ".compiled",
             ]
