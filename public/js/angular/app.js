@@ -1,5 +1,5 @@
 angular
-    .module('cv', ['ngMaterial'])
+    .module('cv', [])
     .config(function($interpolateProvider){
         $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
     });

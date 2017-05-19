@@ -1,14 +1,64 @@
 {
-    "it": [
+    "frameworks": [
         {
-            "name": "angular",
-            "lvl": 8
+            "name": "Angular",
+            "lvl": 5
+        },
+        {
+            "name": "Ember",
+            "lvl": 4
+        },
+        {
+            "name": "Angular Material",
+            "lvl": 6
+        },
+        {
+            "name": "Symfony",
+            "lvl": 9
+        }
+    ],
+    "codingLanguages": [
+        {
+            "name": "PHP",
+            "lvl": 10
+        },
+        {
+            "name": "HTML/CSS",
+            "lvl": 10
+        },
+        {
+            "name": "JS",
+            "lvl": 10
+        },
+        {
+            "name": "PL/SQL",
+            "lvl": 4
+        },
+        {
+            "name": "Java",
+            "lvl": 6
+        },
+        {
+            "name": "ADA",
+            "lvl": 3
         }
     ],
     "languages": [
         {
             "name": "Français",
             "lvl": 10
+        },
+        {
+            "name": "Anglais",
+            "lvl": 9
+        },
+        {
+            "name": "Allemand",
+            "lvl": 4
+        },
+        {
+            "name": "Coréen",
+            "lvl": 1
         }
     ]
 }
