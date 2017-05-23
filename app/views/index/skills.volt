@@ -1,4 +1,4 @@
-<h4 class="ui horizontal divider header">
+<h4 class="ui horizontal divider header" id="skills">
     <i class="diamond icon"></i>
     Skills
 </h4>
@@ -12,7 +12,10 @@
             {[{ skill.name }]}
         </h4>
         <div class="label">
-            <h1><b>{[{ skill.lvl }]}</b><small>/10</small></h1>
+        <div class="ui indicating progress" data-percent="{[{ skill.lvl * 10 }]}">
+            <div class="bar"></div>
+            <div class="label">{[{ skill.lvl * 10 }]}</div>
+        </div>
         </div>
     </div>
 </div>

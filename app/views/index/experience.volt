@@ -1,4 +1,4 @@
-<h4 class="ui horizontal divider header">
+<h4 class="ui horizontal divider header" id="experience">
     <i class="suitcase icon"></i>
     Experience
 </h4>
@@ -6,9 +6,7 @@
 <div ng-controller="ExperienceController">
     <div class="ui divided items">
         <div ng-repeat="exp in experience" class="item">
-            <div class="image">
-                <img src="{[{ exp.logo }]}">
-            </div>
+            <img src="{[{ exp.logo }]}" height="50" class="ui centered image">
 
             <div class="content">
                 <a class="header">{[{ exp.position }]}</a>

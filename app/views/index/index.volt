@@ -6,23 +6,23 @@
 </head>
 <body ng-app="cv">
     <div class="ui left fixed vertical inverted menu">
-        <a class="item">
+        <a class="item" href="#skills">
             <i class="diamond icon"></i>
             Skills
         </a>
-        <a class="item">
+        <a class="item" href="#experience">
             <i class="suitcase icon"></i>
             Experience
         </a>
-        <a class="item">
+        <a class="item" href="#training">
             <i class="student icon"></i>
             Training
         </a>
-        <a class="item">
+        <a class="item" href="#projects">
             <i class="cubes icon"></i>
             Projects
         </a>
-        <a class="item">
+        <a class="item" href="#hobbies">
             <i class="game icon"></i>
             Hobbies
         </a>

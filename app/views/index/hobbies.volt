@@ -1,4 +1,4 @@
-<h4 class="ui horizontal divider header">
+<h4 class="ui horizontal divider header" id="hobbies">
     <i class="game icon"></i>
     Hobbies
 </h4>
