@@ -26,11 +26,11 @@
             <i class="game icon"></i>
             Hobbies
         </a>
+
+        {% include "index/about.volt" %}
     </div>
 
     <div ng-controller="IndexController" class="ui main container" ng-cloak>
-        {% include "index/about.volt" %}
-
         {% include "index/skills.volt" %}
         {% include "index/experience.volt" %}
         {% include "index/training.volt" %}
