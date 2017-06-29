@@ -1,6 +1,6 @@
 angular
     .module('cv')
-    .controller('SkillsController', function ($scope, $http) {
+    .controller('SkillsController', function ($scope, $http, $document) {
         $http({
             method: 'get',
             url: '/js/skills.json'
@@ -8,4 +8,6 @@ angular
             $scope.skills = response.data;
         }, function error(response) {
         });
+
+        // @todo implémenter les progress bars
     })

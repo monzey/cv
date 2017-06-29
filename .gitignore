@@ -1,3 +1,4 @@
 app/cache
 bower_components
 node_modules
+public/semantic/dist

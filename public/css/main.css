@@ -1,0 +1,14 @@
+.main.container {
+    margin-top: 7em;
+}
+
+.ui.header>.icon {
+    vertical-align: middle;
+}
+
+.menu .bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}

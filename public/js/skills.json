@@ -11,11 +11,6 @@
             "logo": "https://angular.io/resources/images/logos/angular/angular.svg"
         },
         {
-            "name": "Angular Material",
-            "lvl": 6,
-            "logo": "https://angular.io/resources/images/logos/angular/angular.svg"
-        },
-        {
             "name": "Ember",
             "lvl": 4,
             "logo": "https://www.gravatar.com/avatar/0cf15665a9146ba852bf042b0652780a?s=200"
@@ -34,45 +29,55 @@
     "codingLanguages": [
         {
             "name": "PHP",
-            "lvl": 10
+            "lvl": 10,
+            "logo": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
         },
         {
             "name": "HTML/CSS",
-            "lvl": 10
+            "lvl": 10,
+            "logo": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
         },
         {
             "name": "JS",
-            "lvl": 10
+            "lvl": 10,
+            "logo": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
         },
         {
             "name": "PL/SQL",
-            "lvl": 4
+            "lvl": 4,
+            "logo": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
         },
         {
             "name": "Java",
-            "lvl": 6
+            "lvl": 6,
+            "logo": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
         },
         {
             "name": "ADA",
-            "lvl": 3
+            "lvl": 3,
+            "logo": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
         }
     ],
     "languages": [
         {
             "name": "Français",
-            "lvl": 10
+            "lvl": 10,
+            "flag": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
         },
         {
             "name": "Anglais",
-            "lvl": 9
+            "lvl": 9,
+            "flag": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
         },
         {
             "name": "Allemand",
-            "lvl": 4
+            "lvl": 4,
+            "flag": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
         },
         {
             "name": "Coréen",
-            "lvl": 1
+            "lvl": 1,
+            "flag": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
         }
     ]
 }
