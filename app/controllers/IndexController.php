@@ -6,17 +6,17 @@ class IndexController extends Controller
 {
 	public function indexAction()
 	{
-        // Jquery
-        $this->assets->addJs("node_modules/jquery/dist/jquery.min.js");
-        // Semantic
-        $this->assets->addJs("semantic/dist/semantic.min.js");
-        $this->assets->addCss("semantic/dist/semantic.min.css");
-
         // Angular
         $this->assets->addJs("node_modules/angular/angular.min.js");
         $this->assets->addJs("node_modules/angular-animate/angular-animate.min.js");
         $this->assets->addJs("node_modules/angular-aria/angular-aria.min.js");
+        $this->assets->addJs("node_modules/angular-slugify/angular-slugify.js");
 
+        // Material design lite
+        $this->assets->addCss("node_modules/material-design-lite/material.min.css");
+        $this->assets->addJs("node_modules/material-design-lite/material.min.js");
+
+        $this->assets->addCss("node_modules/mdi/css/materialdesignicons.min.css");
         $this->assets->addCss("css/main.css");
 
         $this->assets->addJs("js/angular/app.js");

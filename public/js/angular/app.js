@@ -1,5 +1,5 @@
 angular
-    .module('cv', [])
+    .module('cv', ['slugifier'])
     .config(function($interpolateProvider){
         $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
     });

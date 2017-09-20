@@ -8,8 +8,6 @@ use Phalcon\Mvc\Url as UrlProvider;
 use Phalcon\Db\Adapter\Pdo\Mysql as DbAdapter;
 use Phalcon\Mvc\View\Engine\Volt;
 
-
-
 // Register an autoloader
 $loader = new Loader();
 

@@ -1,14 +1,33 @@
-.main.container {
-    margin-top: 7em;
+body > * {
+    font-family: 'Roboto';
 }
 
-.ui.header>.icon {
-    vertical-align: middle;
+.mdl-layout {
+    background: url('../img/seigaiha.png');
 }
 
-.menu .bottom {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
+.mdl-layout__content {
+    padding: 10px;
+}
+
+.mdl-layout__drawer {
+    width: 18%;
+}
+
+.mdl-layout--fixed-drawer>.mdl-layout__content {
+    margin-left: 18%;
+}
+
+.mdl-navigation__link .material-icons, .mdl-navigation__link .mdi {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.56);
+    margin-right: 32px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: auto;
+    display: block;
 }

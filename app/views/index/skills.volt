@@ -3,19 +3,15 @@
     Skills
 </h4>
 
-<div ng-controller="SkillsController" class="ui centered grid">
-    <div ng-repeat="skill in skills.frameworks" class="statistic center aligned four wide column">
+<div ng-controller="SkillsController" class="mdl-grid mdl-shadow--2dp mdl-color--white">
+    <div ng-repeat="skill in skills.frameworks" class="mdl-cell mdl-cell--2-col">
         <div class="value">
             <img src="{[{ skill.logo }]}" height="150" class="ui inline image">
         </div>
         <h4 class="label">
             {[{ skill.name }]}
         </h4>
-        <div class="label">
-        <div class="ui indicating progress" data-percent="{[{ skill.lvl * 10 }]}">
-            <div class="bar"></div>
-            <div class="label">{[{ skill.lvl * 10 }]}</div>
-        </div>
-        </div>
+
+        <input name="{[{ skill.name }]}" class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="{[{ skill.lvl * 10 }]}" tabindex="0" disabled>
     </div>
 </div>

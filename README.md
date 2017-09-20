@@ -1,7 +1,7 @@
 Resume
 ======
 
-Project created with Phalcon and Angular 1
+Project created with Phalcon and AngularJS
 
 To install
 ----------
