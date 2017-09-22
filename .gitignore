@@ -1,7 +1,6 @@
 app/cache/*
 !app/cache/.gitkeep
 
-app/cache
 node_modules
 
 public/dist/*
