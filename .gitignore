@@ -1,7 +1,7 @@
-app/cache/*
-!app/cache/.gitkeep
+var/cache/*
+!var/cache/.gitkeep
 
 node_modules
 
-public/dist/*
-!public/dist/index.php
+dist/*
+!dist/index.php

@@ -13,7 +13,7 @@ $loader = new Loader();
 
 $loader->registerDirs(
     [
-        "../app/controllers/",
+        "../src/controllers/",
     ]
 );
 
@@ -32,7 +32,7 @@ $di->set(
             [
                 'compiledSeparator' => '_',
                 'compileAlways' => true,
-                "compiledPath"      => "../app/cache/templates",
+                "compiledPath"      => "../var/cache/templates",
                 "compiledExtension" => ".compiled",
             ]
         );
@@ -47,7 +47,7 @@ $di->set(
     function () {
         $view = new View();
 
-        $view->setViewsDir("../app/views/");
+        $view->setViewsDir("../src/views/");
 
         $view->registerEngines(
             [
