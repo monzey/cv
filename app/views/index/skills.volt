@@ -3,8 +3,8 @@
     Skills
 </h4>
 
-<div ng-controller="SkillsController" class="mdl-grid mdl-shadow--2dp mdl-color--white">
-    <div ng-repeat="skill in skills.frameworks" class="mdl-cell mdl-cell--2-col">
+<div ng-controller="SkillsController as skillsC" class="mdl-grid mdl-shadow--2dp mdl-color--white">
+    <div ng-repeat="skill in skillsC.skills.frameworks" class="mdl-cell mdl-cell--2-col">
         <div class="value">
             <img src="{[{ skill.logo }]}" height="150" class="ui inline image">
         </div>

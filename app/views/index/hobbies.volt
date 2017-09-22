@@ -3,8 +3,8 @@
     Hobbies
 </h4>
 
-<div ng-controller="HobbiesController">
-    <div ng-repeat="hobbie in hobbies">
+<div ng-controller="HobbiesController as hobbiesC">
+    <div ng-repeat="hobbie in hobbiesC.hobbies">
         <h1>{[{ hobbie.name }]}</h1>
     </div>
 </div>

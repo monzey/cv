@@ -3,9 +3,9 @@
     Experience
 </h4>
 
-<div ng-controller="ExperienceController">
+<div ng-controller="ExperienceController as experienceC">
     <div class="ui divided items">
-        <div ng-repeat="exp in experience" class="item">
+        <div ng-repeat="exp in experienceC.experience" class="item">
             <img src="{[{ exp.logo }]}" height="50" class="ui centered image">
 
             <div class="content">
