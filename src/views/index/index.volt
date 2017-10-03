@@ -11,16 +11,22 @@
 </head>
 
 <body ng-app="cv">
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
-        {% include "index/about.volt" %}
+    <div class="parallax-container">
+        <div class="parallax" id="parallax"><img src="img/zhiyong-li-time.jpg"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <main ng-controller="IndexController" ng-cloak class="section white">
+                <canvas id="skillChart" width="400" height="400"></canvas>
+                {% include "index/about.volt" %}
 
-        <main ng-controller="IndexController" ng-cloak class="mdl-layout__content">
-            {% include "index/skills.volt" %}
-            {% include "index/experience.volt" %}
-            {% include "index/training.volt" %}
-            {% include "index/projects.volt" %}
-            {% include "index/hobbies.volt" %}
-        </main>
+                {% include "index/skills.volt" %}
+                {% include "index/experience.volt" %}
+                {% include "index/training.volt" %}
+                {% include "index/projects.volt" %}
+                {% include "index/hobbies.volt" %}
+            </main>
+        </div>
     </div>
     {{ assets.outputJs() }}
 </body>

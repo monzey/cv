@@ -1,23 +1,29 @@
 [
     {
-        "position": "Stagiaire web designer",
+        "icon": "brush",
+        "position": "Stagiaire webdesigner",
         "description": "Refonte du template Joomla du site du Lycée Français de Séoul",
         "when": "Février - Mai 2014",
         "where": "Lycée Fançais de Séoul",
-        "logo": "http://lfseoul.org/wp-content/uploads/logo_lfs_complet.png"
+        "logo": "http://lfseoul.org/wp-content/uploads/logo_lfs_complet.png",
+        "tags": ["webdesign", "templating"]
     },
     {
+        "icon": "laptop",
         "position": "Stagiaire développeur web",
         "description": "Refonte d'un extranet en Symfony 2",
         "when": "Février - Mai 2015",
         "where": "100% Net, Montpellier",
-        "logo": "https://www.100pour100net.com/sites/all/themes/custom/site100p100/logo.png"
+        "logo": "https://www.100pour100net.com/sites/all/themes/custom/site100p100/logo.png",
+        "tags": ["développement", "agile", "symfony"]
     },
     {
+        "icon": "laptop",
         "position": "Développeur web",
         "description": "Migration d'un CRM vers Symfony 2 + Angular",
         "when": "Septembre 2015 - ?",
         "where": "Nelis, Montpellier",
-        "logo": "https://pbs.twimg.com/profile_images/533269402926325760/k_LiJQCS.png"
+        "logo": "https://pbs.twimg.com/profile_images/533269402926325760/k_LiJQCS.png",
+        "tags": ["symfony", "agile"]
     }
 ]

@@ -1,61 +1,78 @@
 {
     "frameworks": [
         {
-            "name": "Symfony",
+            "name": "Symfony 2",
             "lvl": 9,
-            "logo": "https://pbs.twimg.com/profile_images/1450222519/logosf_positif_03_icon.png"
+            "logo": "symfony.svg"
         },
         {
-            "name": "Angular",
+            "name": "AngularJS",
             "lvl": 7,
-            "logo": "https://angular.io/resources/images/logos/angular/angular.svg"
+            "logo": "angular.svg"
         },
         {
             "name": "Ember",
             "lvl": 4,
-            "logo": "https://www.gravatar.com/avatar/0cf15665a9146ba852bf042b0652780a?s=200"
+            "logo": "ember.svg"
         },
         {
             "name": "Phalcon",
             "lvl": 4,
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Phalcon_logo.png/1200px-Phalcon_logo.png"
+            "logo": "phalcon.svg"
         },
         {
             "name": "Foundation",
             "lvl": 4,
-            "logo": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
+            "logo": "foundation.svg"
         }
     ],
     "codingLanguages": [
         {
             "name": "PHP",
             "lvl": 10,
-            "logo": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
+            "logo": "php.svg"
         },
         {
-            "name": "HTML/CSS",
+            "name": "HTML5",
             "lvl": 10,
-            "logo": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
+            "logo": "html5.svg"
         },
         {
-            "name": "JS",
+            "name": "CSS3",
             "lvl": 10,
-            "logo": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
+            "logo": "css.svg"
         },
         {
-            "name": "PL/SQL",
-            "lvl": 4,
-            "logo": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
+            "name": "Javascript",
+            "lvl": 10,
+            "logo": "js.svg"
         },
         {
             "name": "Java",
             "lvl": 6,
-            "logo": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
+            "logo": "java.svg"
+        }
+    ],
+    "tools": [
+        {
+            "name": "Git",
+            "lvl": 10,
+            "logo": "git.svg"
         },
         {
-            "name": "ADA",
-            "lvl": 3,
-            "logo": "http://foundation.zurb.com/assets/img/mascots/responsive-through-and-through.svg"
+            "name": "NPM",
+            "lvl": 10,
+            "logo": "npm.svg"
+        },
+        {
+            "name": "Composer",
+            "lvl": 10,
+            "logo": "composer.svg"
+        },
+        {
+            "name": "Nginx",
+            "lvl": 10,
+            "logo": "nginx.svg"
         }
     ],
     "languages": [

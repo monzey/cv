@@ -1,1 +1,18 @@
-{}
+[
+    {
+        "name": "Guitare",
+        "icon": "guitar"
+    },
+    {
+        "name": "Ukelele (tahitien)",
+        "icon": "beach"
+    },
+    {
+        "name": "Dev",
+        "icon": "guitar"
+    },
+    {
+        "name": "Graphisme",
+        "icon": "guitar"
+    }
+]

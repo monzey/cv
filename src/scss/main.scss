@@ -2,32 +2,15 @@ body > * {
     font-family: 'Roboto';
 }
 
-.mdl-layout {
-    background: url('../img/seigaiha.png');
+body {
+    background: url('../../dist/img/seigaiha.png');
 }
 
-.mdl-layout__content {
-    padding: 10px;
+#skills .card {
+    min-height: 210px;
+    max-height: 210px;
 }
 
-.mdl-layout__drawer {
-    width: 18%;
-}
-
-.mdl-layout--fixed-drawer>.mdl-layout__content {
-    margin-left: 18%;
-}
-
-.mdl-navigation__link .material-icons, .mdl-navigation__link .mdi {
-    font-size: 24px;
-    color: rgba(0, 0, 0, 0.56);
-    margin-right: 32px;
-}
-
-.avatar {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    margin: auto;
-    display: block;
+#skills .card-image img {
+    height: 150px;
 }
